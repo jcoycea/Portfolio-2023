@@ -830,7 +830,7 @@ img {
   padding-top: 1em;
 
   font-family: aktiv-grotesk, sans-serif;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   letter-spacing: 0.5px;
   font-weight: 400;
   font-size: 14px;
