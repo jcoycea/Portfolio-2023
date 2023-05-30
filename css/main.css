@@ -788,10 +788,7 @@ img {
 }
 
 .index-main-title {
-<<<<<<< HEAD
-=======
   font-family: 'Canela Text Web', calluna, serif;
->>>>>>> portfolio-2023
   font-size: 6.15rem;
   line-height: 1.15em;
   letter-spacing: -1px;
@@ -805,17 +802,13 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-<<<<<<< HEAD
-}
-
-=======
   text-transform: uppercase;
 }
 
 #about .header-nav {
     background: #F7F4E3;
 }
->>>>>>> portfolio-2023
+
 .header-nav .portfolio-name,
 .header-nav .coming-soon,
 .footer-nav .social-links,
@@ -829,10 +822,7 @@ img {
 }
 
 .header-nav, .footer-nav {
-<<<<<<< HEAD
   align-items: baseline; /* center; */
-=======
->>>>>>> portfolio-2023
   display: flex;
   flex-direction: row;
 
@@ -840,26 +830,22 @@ img {
   padding-top: 1em;
 
   font-family: aktiv-grotesk, sans-serif;
-<<<<<<< HEAD
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-weight: 400;
   font-size: 14px;
-=======
   letter-spacing: 0.5px;
   font-weight: 400;
   font-size: 0.8rem; /* 14px; */
->>>>>>> portfolio-2023
   color: black;
   width: 100%;
   padding: 1.5em;
 }
 
-<<<<<<< HEAD
 .footer-nav .menu-left {
   display: inline-flex;
 }
-=======
+
 .footer-nav {
   background: #F7F4E3;
   align-items: flex-end; /* baseline center; */ 
@@ -882,4 +868,3 @@ img {
   width: 80%;
   margin: 0 auto;
 }
->>>>>>> portfolio-2023
