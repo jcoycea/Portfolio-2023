@@ -18,9 +18,6 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   .header-nav, .footer-nav {
     padding: 1em;
   }
-
-<<<<<<< HEAD
-=======
     .header-nav {
         position: inherit; /* NEW 050223 */
     }
@@ -54,7 +51,6 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
     #graphic-archive .header-nav a, #caseit .header-nav a {
         color: #000 !important;
     }
->>>>>>> portfolio-2023
   /* NEW - PORTFOLIO COLUMN */
 
   .side_nav {
