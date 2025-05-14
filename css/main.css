@@ -505,6 +505,7 @@ img {
 
 .gallery-project-number {
   margin-right: 1.5em;
+  display: none; /* May 2025 Update */
 }
 
 .gallery-project-year {
