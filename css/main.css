@@ -135,7 +135,7 @@ img {
   display: inline-flex;
 }
 
-#tealeaves, #manulife, #caseit, #locale,
+#tealeaves, #tlvs-ecom, #athiana-acres, #manulife, #caseit, #locale,
 #illustrations, #graphic-archive, #ebb-and-flow,
 #about-text, #naturexdesign, #colorofbiodiversity, 
 #cooperhewitt, #fungi, #gobchi {
@@ -318,8 +318,8 @@ img {
 }
 
 .column-caption {
-  text-align: right;
-  margin-left: 75%;
+  text-align: left;
+  margin-right: 75%;
   margin-right: 0;
 }
 
@@ -700,6 +700,10 @@ img {
   padding: 1.5em; /* NEW 050223 */
 }
 
+.centered {
+    margin: 0 auto !important; /* NEW 250524 */
+}
+
 #illustrations .gallery-grid,
 #graphic-archive .gallery-grid {
   /* flex-wrap: wrap; */
@@ -788,15 +792,18 @@ img {
   color: black;
 }
 
+.index-main-intro {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
 .index-main-title {
   font-family: 'Canela Text Web', calluna, serif;
-  font-size: 6.15rem;
+  font-size: 6rem; /* 6.15rem; */
   line-height: 1.15em;
   letter-spacing: -1px;
   width: 75vw;
-
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  margin: 4rem 0; /* NEW 250609 */
 }
 
 .header-nav {
@@ -868,4 +875,37 @@ img {
 .project-overview {
   width: 80%;
   margin: 0 auto;
+}
+
+/***** NEW 2025 *****/
+
+#tlvs-ecom figcaption {
+  margin: 0.5rem 0 0 0; 
+}
+
+figcaption .content-subtitle {
+  padding-right: 1em;
+}
+
+#tlvs-ecom .overview-section,
+#tlvs-ecom .about-section {
+  padding: 5em 0;
+}
+
+#tlvs-ecom .collection-section{
+  background: #a3ac71 !important;
+  padding: 5em 10%;
+}
+
+#tlvs-ecom .product-section {
+  background: #eeeee1 !important;
+}
+
+#tlvs-ecom .product-mobile-section {
+/*  background: #eeeee1 !important;*/
+  padding: 5em 10%;
+}
+
+#tlvs-ecom .extra-section {
+  padding: 5em 10%;
 }
