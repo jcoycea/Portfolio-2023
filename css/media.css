@@ -10,12 +10,13 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
     
   .index-main-intro {
     width: 100vw;
-    padding: 80px 1rem;
+    padding: 60px 1rem 80px 1rem;
   }
     
   .index-main-title {
     font-size: 2.15rem;
     line-height: 1.15em;
+    margin-top: 0;
   }
 
   .header-nav, .footer-nav {
