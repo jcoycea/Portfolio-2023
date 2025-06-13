@@ -91,11 +91,15 @@ a:active, a:hover, a:focus {
   color: #e3e3e3;
 }
 
-img {
+img, video {
   width: auto;
   height: auto;
   max-width: 100%;
   max-height: 100%;
+}
+
+.object-contain {
+  object-fit: contain;
 }
 
 .intext-link {
@@ -384,8 +388,8 @@ img {
 }
 
 .project-content {
-  padding-top: 4em;
-  padding-bottom: 4em;
+/*  padding-top: 4em; UPDATE 250613 */ 
+  padding-bottom: 3em; /* UPDATE 250613 */ 
   margin: 0 auto;
   float: none !important;
 }
@@ -578,7 +582,7 @@ img {
 
   color: #666;
   text-align: center;
-  padding: 0 3em;
+/*  padding: 0 3em;*/
   width: 100%;
 }
 
@@ -753,6 +757,10 @@ img {
   width: 50vw;
 }
 
+.experience-pyramid { /* NEW 250613 */
+  padding-right: 0 !important;
+}
+
 #project-column-thumbnail .gallery-grid {
   column-gap: 1em;
   column-width: 40vw;
@@ -882,6 +890,26 @@ img {
 
 /***** NEW 2025 *****/
 
+/*
+.takeaway {
+  margin-top: 3rem;
+}
+*/
+
+.rounded {
+  border-radius: 10px;
+}
+
+.faded {
+    background: linear-gradient(180deg, #f3eee000 3.03%, rgba(255, 251, 238, .51) 23.66%, var(#FFFF00) 47.7%);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    pointer-events: none;
+}
+
 #tlvs-ecom figcaption {
   margin: 0.5rem 0 0 0; 
 }
@@ -895,12 +923,19 @@ figcaption .content-subtitle {
   padding: 5em 0;
 }
 
-#tlvs-ecom .collection-section{
+#tlvs-ecom .collection-section,
+#tlvs-ecom .projects-section {
   background: #a3ac71 !important;
   padding: 5em 10%;
 }
 
-#tlvs-ecom .product-section {
+#tlvs-ecom .collection-section figcaption,
+#tlvs-ecom .projects-section figcaption {
+  color: #000;
+}
+
+#tlvs-ecom .product-section,
+#tlvs-ecom .extra-section {
   background: #eeeee1 !important;
 }
 
