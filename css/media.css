@@ -292,6 +292,50 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   #manulife #business-problem {
     width: 85vw;
   }
+    
+/*
+#tlvs-ecom .full-width-project {
+    width: 90vw;
+}
+*/
+  #tlvs-ecom .overview-section,
+  #tlvs-ecom .pdp-section,
+  #tlvs-ecom .about-section {
+     padding: 1em 0;
+  }
+    
+  #tlvs-ecom .overview-section .gallery-grid {
+    width: 40vw;
+    display: inline-block;
+    vertical-align: top;
+      
+    margin-left: 1.5em !important;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  #tlvs-ecom .extra-section .gallery-grid.tea-quiz {
+    width: 42vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+    
+  #tlvs-ecom .collection-section,
+  #tlvs-ecom .projects-section {
+    padding: 2em 10%;
+  }
+
+  #tlvs-ecom .extra-section {
+    padding: 2em 1.5em;
+  }
+    
+  #tlvs-ecom .collection-section .gallery-grid {
+    padding: 0.5em;
+  }
+    
 }
 
 @media (max-width: 690px) {
