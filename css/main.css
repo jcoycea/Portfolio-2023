@@ -910,6 +910,22 @@ img, video {
 */
 }
 
+/* ATHIANA ACRES COLOURS 
+    #EEA1A6 - Blush
+    #E1842D - Mandarin
+    #9F0A48 - Eggplant
+    #226143 - Forest
+    #A9D7AE - Mint
+    #FBF6E9 - Oatmeal
+*/
+
+
+#athiana-acres .section-bg {
+  background: #A9D7AE !important;
+  padding: 5em 10%;
+  margin: 0 auto;
+}
+
 #tlvs-ecom figcaption {
   margin: 0.5rem 0 0 0; 
 }
